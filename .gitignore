@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+.DS_Store
+
+.env
+*.env
+
+# starter-kit build artifacts
+starter-kit/node_modules/
+starter-kit/.next/
