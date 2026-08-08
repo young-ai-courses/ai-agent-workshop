@@ -211,7 +211,7 @@
 
 ## Step 1：Fork
 
-到 [github.com/young-ai-courses/ai-workflow-demo](https://github.com/young-ai-courses/ai-workflow-demo) → 右上角 Fork
+到 [github.com/young-ai-courses/ai-agent-workshop](https://github.com/young-ai-courses/ai-agent-workshop) → 右上角 Fork
 
 ## Step 2：Deploy to Vercel（一鍵）
 

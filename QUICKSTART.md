@@ -6,7 +6,7 @@
 
 ## Step 1：Fork 這個 Repo
 
-1. 到 [github.com/young-ai-courses/ai-workflow-demo](https://github.com/young-ai-courses/ai-workflow-demo)
+1. 到 [github.com/young-ai-courses/ai-agent-workshop](https://github.com/young-ai-courses/ai-agent-workshop)
 2. 點右上角 **Fork** → Create fork
 3. 你現在有自己的副本了
 
