@@ -12,8 +12,27 @@
 | 🎯 **把東西做上線** | [QUICKSTART.md](QUICKSTART.md) —— 六張工單，各附驗收條件 |
 | 🤖 **專案內建助教** | [AGENTS.md](AGENTS.md) —— Codex 開啟專案時自動讀取，知道這堂課的目標與規則 |
 | 📖 **Agent prompt 模板** | [agent-prompts.md](agent-prompts.md) |
-| 🧱 **範例程式（會議筆記整理器）** | `starter-kit/` —— 前端 ＋ 一支伺服器端 AI 入口 |
+| 🧱 **第二堂的程式（會議筆記整理器）** | `starter-kit/` —— 前端 ＋ 一支伺服器端 AI 入口 |
+| 🤖 **第一堂的成果（競品監控器）** | `scripts/` + `config.yaml` + `.github/workflows/` —— 直接繼承過來，不用回去翻上週那顆 |
 | 🖼 **投影片與講稿** | `slides/` |
+
+## 兩堂課都在這一顆
+
+第一堂做的**競品監控器**（每週自動抓文章 → AI 摘要 → 產週報）跟第二堂的**網頁 App**
+都在這裡。你的 Demo Day 產品就長在這顆上面，不需要在兩個 repo 之間搬東西。
+
+| 你想動 | 去哪 |
+|---|---|
+| 換監控對象、換關鍵字 | `config.yaml` |
+| 改自動執行時間 | `.github/workflows/weekly-digest.yml` 的 cron |
+| 改週報格式 | `scripts/weekly_competitor_digest.py` |
+| 改網頁畫面 | `starter-kit/app/` |
+| 改 AI 的行為 | `starter-kit/app/api/` 那支 route 的角色設定 |
+
+> ⚠️ Fork 過來的 repo，**GitHub Actions 預設是停用的** —— 要讓第一堂的排程跑起來，
+> 先去 Actions 分頁按啟用，並補上它需要的 Secrets（[QUICKSTART](QUICKSTART.md) 工單 6）。
+
+---
 
 ## 今天做的東西
 
