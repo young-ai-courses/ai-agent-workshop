@@ -1,11 +1,6 @@
-__pycache__/
-*.py[cod]
-
-.DS_Store
-
+node_modules/
+.next/
 .env
-*.env
-
-# starter-kit build artifacts
-starter-kit/node_modules/
-starter-kit/.next/
+.env.local
+__pycache__/
+.vercel
