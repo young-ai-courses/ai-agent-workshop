@@ -73,6 +73,11 @@
 
 **驗收條件**：打開網址，貼一段會議筆記，按送出，AI 真的回話。
 
+> **改走網頁 Import 的話**（vercel.com/new → Import 你的 fork）：
+> 設定畫面上專案名稱下面有一列 **Root Directory**，右邊 **Edit** → 選 `starter-kit` → Continue。
+> **漏掉這步會部署成一頁 404**（程式在 `starter-kit/` 裡，repo 根目錄沒有 `package.json`）。
+> 已經建好才發現：Settings → Build and Deployment → Root Directory 填 `starter-kit` → Save → Redeploy。
+
 | 你看到 | 它跳過了 |
 |---|---|
 | 部署「成功」但網址是 404 | 第 1 步（站在最外層部署） |
