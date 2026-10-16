@@ -88,3 +88,7 @@ AI 呼叫走 Groq，**key 只在伺服器端** —— 這是今天唯一的架�
 *新北市青年局 AI 實戰職涯營 · 2026 第二屆 · 講師：蔡子揚*
 
 </details>
+
+---
+
+授權：本教材採 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)，可分享、改作，須標示來源，不可商用｜© 2026 睿度科技有限公司 Redutek Co., Ltd.（見 [LICENSE](LICENSE)）
